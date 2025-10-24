@@ -9,7 +9,7 @@ pthread_mutex_t mutex; // mutex object
 
 // Critical section function
 void critical_section(int process) {
-    //printf("Process %d is in the critical section\n", process);
+    //printf("Process %d is in the critical section\n", process)
     //sleep(1); // Simulate some work in the critical section
     if(process==0){
 
