@@ -11,7 +11,7 @@ typedef struct {
     float gpa;
 } Student;
 
-pthread_mutex_t print_mutex; // mutex to serialize printing
+pthread_mutex_t print_mutex; // mutex for printing
 
 // Thread function 
 void* check_deans_list(void* arg) {
